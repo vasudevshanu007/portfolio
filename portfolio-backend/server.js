@@ -1,5 +1,6 @@
 // server.js
-require('dotenv').config();
+const dotenv = require('dotenv')
+dotenv.config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
