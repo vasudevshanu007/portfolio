@@ -28,7 +28,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     message: document.getElementById('message').value
   };
 
-  fetch('http://localhost:5000/send-email', {
+  fetch('https://portfolio-1-zw8k.onrender.com/send-email', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
